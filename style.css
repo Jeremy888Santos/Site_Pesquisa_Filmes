@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(57, 51, 38);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    max-width: 1500px;
+    padding: 60px 4%;
+    justify-content: center;
+}
+
+
+.pesquisa{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+input{
+    padding: 10px;
+    width: 300px;
+}
+
+button{
+    padding: 10px 10px;
+    border: 1%;
+    background-color: rgb(78, 249, 115);
+}
+
+button:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+
+.capa{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.filmes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px; 
+    height: auto; 
+    border-radius: 10px;
+    cursor: pointer;                   
+}
+
+.filmes:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+img{
+    width: 250px;
+    height: 270px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.texto{   
+    color: rgb(0, 0, 0);
+    background-color: rgb(200, 249, 210);
+}
+
+.texto h2{
+    margin: 10px;
+}
+
+.nome{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.texto p{
+    margin: 10px;
+    font-size: 15px;
+    text-align: justify-all;    
+}
+
+
+
